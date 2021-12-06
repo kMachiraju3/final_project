@@ -11,98 +11,77 @@
     <title>NEWS API</title>
   </head>
   <body>
-    <h1>Welcome to News API</h1>
-
-    <!--Nav Bar-->
+    <h1>Welcome to our NEWS API</h1>
     <div class="header">
-        <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About NEWS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#why">Why US</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#ways">Different Ways</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact US</a>
-            </li>
-        </ul>
-    </div>
-    <main id="main" role="main" class="info">
-        <section id="about" class="about">
-            <h2>About US</h2>
-            <p>We are a student created website, developed to provide users with the NEWS based on the user selection.</p>
-        </section>
-        <section id="why" class="why">
-            <h2>Why US</h2>
-            <p>Here are some suggestions about why to use our website. </p>
-        </section>
-        <section id="ways" class="ways">
-            <h2>Ways</h2>
-            <p>There are so many ways to obtain NEWS from all over the world. Here's a few methods: </p>
-            <p>You can search for articles by using a keyword, Date Published, or Source Domain Name</p>
-            <p>Give it a try!</p>
-            <form action="/action_page.php">
-              <label for="keyword">Keyword:</label>
-              <input type="text" id="keyword" name="keyword"><br><br>
-              <label for="date">Date Published:</label>
-              <input type="text" id="date" name="date"><br><br>
-              <label for="source">Source Domain Name:</label>
-              <input type="text" id="source" name="source"><br><br>
-              <input type="submit" value="Submit">
-            </form>
-        </section>
-        <section id="contact" class="contact">
-            <h2>Contact US</h2>
-            <p>To get more info, contact us....</p>
-        </section>
-    </main>
+      <ul class="nav nav-fill">
+        <li class="nav-item">
+          <img src="../static/images/NEWS.png" href= "/main.html" alt="Logo" style="height: 100px; width: 250px;"/>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about" style="font-size: 20px; padding-top: 2em;">About NEWS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#why" style="font-size: 20px; padding-top: 2em;">Why US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ways" style="font-size: 20px; padding-top: 2em;">Different Ways</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" style="font-size: 20px; padding-top: 2em;">Contact US</a>
+          </li>
+      </ul>
+  </div>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item">
-            <section id="about" class="about">
-                <h2>About US</h2>
-                <p>We are a student created website, developed to provide users with the NEWS based on the user selection.</p>
-            </section>
-          </div>
-          <div class="carousel-item">
-            <section id="why" class="why">
-                <h2>Why US</h2>
-                <p>Here are some suggestions about why to use our website. </p>
-            </section>
-          </div>
-          <div class="carousel-item">
-            <section id="ways" class="ways">
-                <h2>Ways</h2>
-                <p>There are so many ways to obtain NEWS from all over the world. Here's a few methods: </p>
-            </section>
-          </div>
-          <div class="carousel-item">
-            <section id="ways" class="ways">
-                <h2>Ways</h2>
-                <p>There are so many ways to obtain NEWS from all over the world. Here's a few methods: </p>
-            </section>
+  <main id="main" role="main" class="info">
+    <section id="about" class="about">
+        <h2>About US</h2>
+        <div class="carousel-wrapper">
+          <div class="carousel-container">
+            <div class="carousel">
+              <div class="image-one">
+                <h3>Who Are We?</h3>
+                <p>We are a student-created website. We are a group of 4.</p>
+              </div>
+              <div class="image-two">
+                <h3>Why Us?</h3>
+                <p>We created this website to spread awareness about why NEWS is important and we are providing information that can be relied on. </p>
+              </div>
+              <div class="image-three">
+                <h3>What are the Advantages?</h3>
+                <p>You can search for the NEWS based on the provided keywords and</p>
+              </div>
+            </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+    </section>
+    <section id="why" class="why">
+        <h2>NEWS</h2>
+        <p></p>
+    </section>
+    <section id="ways" class="ways">
+        <h2>Ways</h2>
+        <p>There are so many ways to obtain NEWS from all over the world. Here's a few methods: </p>
+        <p>You can search for articles by using a keyword, Date Published, or Source Domain Name</p>
+        <p>Give it a try!</p>
+        <form action="/action_page.php">
+          <label for="keyword">Keyword:</label>
+          <input type="text" id="keyword" name="keyword"><br><br>
+          <label for="date">Date Published:</label>
+          <input type="text" id="date" name="date"><br><br>
+          <label for="source">Source Domain Name:</label>
+          <input type="text" id="source" name="source"><br><br>
+          <input type="submit" value="Submit">
+        </form>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact US</h2>
+        <p>To get more info, contact us....</p>
+    </section>
+</main>
+
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    
   </body>
 </html>

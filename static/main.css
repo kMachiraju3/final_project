@@ -1,18 +1,24 @@
 .header {
-    background-image: url("../static/images/NEWS.png");
+    background-repeat: no-repeat;
     text-align: center;
+    width: 100%;
+    background-color: #0B243B;
+
 }
 
 h1{
     text-align: center;
     color: cornflowerblue;
-    text-shadow: 2px 2px black; 
+    text-shadow: 2px 2px black;
+    padding-top: 1em; 
+    padding-bottom: 1em;
 }
 
 h2{
     text-align: center;
     color: black;
     text-shadow: 2px 2px cornflowerblue;
+    font-size: 34px;
 }
 
 p{
@@ -29,4 +35,16 @@ form {
   color: aliceblue;
   border-style: dotted;
   border-color: black;
+}
+
+h3 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px cornflowerblue;
+}
+
+.about {
+    padding-top: 3em;
 }
